@@ -45,7 +45,15 @@ int main(void) {
 
     num = 0;
     printf("num pointer: %p\n", &num); 
-    printf("num has the value: %d\n\n", num);  
+    printf("num has the value: %d\n", num);  
+    printf("a is the pointer: %p\n", a);
+    printf("a has the value: %d\n\n", *a);  
+
+    // DOES NOT WORK - Sets address to 42, not the value at the address to 42
+    // a = 42;
+
+    printf("num pointer: %p\n", &num); 
+    printf("num has the value: %d\n", num);  
     printf("a is the pointer: %p\n", a);
     printf("a has the value: %d\n", *a);  
 
