@@ -34,7 +34,7 @@ int main(void) {
     
 
     // You may also see that the size of a pointer is 32 bits, and when we access the
-    // pointers they are exactly 4 bytes apart, or 32 bits.
+    // pointers they are exactly 4 bytes apart, or 32 bits on 32 bit machines.
 
     // This does not need to the case for single values, but for arrays they are always continuous
     // chuncks of memory.
